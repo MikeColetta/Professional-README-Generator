@@ -26,7 +26,8 @@ ${license}
 
 ## Contributing
 
-${contributing}
+${name}
+${otherContributors}
 
 ## Tests
 
