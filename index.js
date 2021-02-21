@@ -15,6 +15,9 @@ const promptUser = () =>
         }
     ]);
 
+const renderMD = (data) => 
+    `Template README goes here`
+
 const init = () => {
     promptUser();
 }
