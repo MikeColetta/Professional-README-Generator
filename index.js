@@ -2,7 +2,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const Choices = require('inquirer/lib/objects/choices');
 
-const promptUser = () => 
+const promptUser = () =>
     inquirer.prompt([
         {
             type: 'input',
@@ -78,7 +78,7 @@ const promptUser = () =>
     ]);
 
 const mDTemplate = (response) =>
-`# ${response.title}
+    `# ${response.title}
 
 ![GitHub](https://img.shields.io/github/license/${response.gitHubUsername}/${response.repoName})
 
@@ -126,15 +126,18 @@ ${response.tests}
     
 [${response.fullName} Github](${response.gitHub})
     
-[${response.fullName} Email](${response.email})`;
+For any questions, please send me an [email](${response.email}).`;
 
 
 const init = () => {
     promptUser().then((response) => {
-        const markDown = mDTemplate(response)
-        fs.writeFileSync('GeneratedREADME.md', markDown, 
-        (err) => err ? console.error(err) : console.log('Success, README generated!')
-    )
+        try {
+            const markDown = mDTemplate(response)
+            fs.writeFileSync('GeneratedREADME.md', markDown);
+            console.log('Success, README generated!');
+        } catch (error) {
+            console.log(error)
+        }
     })
 }
 

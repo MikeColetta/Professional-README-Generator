@@ -1,10 +1,10 @@
-# sdfsd
+# Code Quiz
 
-![GitHub](https://img.shields.io/github/license/sdfd/sdfd)
+![GitHub](https://img.shields.io/github/license/MikeColetta/code-quiz)
 
 ## Description
     
-sdfd
+When the player starts the game they have 75 seconds to complete the quiz. Every wrong answer takes time off the clock. The final score is the time left on the clock.
     
 ## Table of Contents
 1. [Installation](#installation)
@@ -16,25 +16,25 @@ sdfd
     
 ## Installation
     
-sdfd
+Click on the link below!
     
-[Link to sdfsd](sdfd)
+[Link to Code Quiz](https://mikecoletta.github.io/Code-Quiz/)
     
 ## Usage
     
-sdfd
 
-![Screenshot](sdfd)
+
+![Screenshot](test.JPG)
     
 ## License
     
 MIT License 
     
-Copyright (c) 2021 sdfd
+Copyright (c) 2021 Mike Coletta
     
 ## Contributing
     
-sdfd
+Mike Coletta
 
 
     
@@ -44,6 +44,6 @@ sdfd
     
 ## Questions?
     
-[sdfd Github]()
+[Mike Coletta Github](https://github.com/MikeColetta)
     
-[sdfd Email]()
+For any questions, please send me an [email](coletta.mike@gmail.com).

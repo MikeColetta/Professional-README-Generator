@@ -46,4 +46,4 @@ ${response.tests}
     
 [${response.fullName} Github](${response.gitHub})
     
-[${response.fullName} Email](${response.email})
+For any questions, please send me an [email](${response.email}).
