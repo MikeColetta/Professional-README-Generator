@@ -2,7 +2,7 @@
 
 ## Description
     
-Description goes here.
+Description...
     
 ## Table of Contents
 1. [Installation](#installation)
@@ -14,13 +14,15 @@ Description goes here.
     
 ## Installation
     
-Instructions go here.
+Install...
     
 [Link to The Relocator](https://mikecoletta.github.io/Group-Project-One/)
     
 ## Usage
     
-test.JPG
+Usage...
+
+![Screenshot](test.JPG)
     
 ## License
     
@@ -31,14 +33,14 @@ Copyright (c) 2021 Mike Coletta
 ## Contributing
     
 Mike Coletta
-
+Bob Bobson
     
 ## Tests
     
-Testing goes here.
+Testing...
     
-## Questions
+## Questions?
     
-Github: https://mikecoletta.github.io/
+[Mike Coletta Github](https://github.com/MikeColetta)
     
-Email: coletta.mike@gmail.com
+[Mike Coletta Email](coletta.mike@gmail.com)

@@ -32,13 +32,18 @@ const promptUser = () =>
         {
             type: 'input',
             name: 'usage',
+            message: 'Please provide any usage information. The next question will ask you for a link to a screenshot.'
+        },
+        {
+            type: 'input',
+            name: 'screenshot',
             message: 'Please provide the link to a screenshot. Be sure to check that the proper file path is in place.'
         },
         {
             type: 'checkbox',
             name: 'license',
             message: 'Which license would you like?',
-            choices: [, 'MIT License', 'GNU GPLv3', 'Apache License 2.0', 'No License']
+            choices: [, 'MIT License', 'GNU GPLv3', 'Apache License 2.0', 'The Unilicense']
         },
         {
             type: 'input',
@@ -86,6 +91,8 @@ ${response.install}
 ## Usage
     
 ${response.usage}
+
+![Screenshot](${response.screenshot})
     
 ## License
     
@@ -96,17 +103,18 @@ Copyright (c) 2021 ${response.fullName}
 ## Contributing
     
 ${response.fullName}
+
 ${response.otherContributors}
     
 ## Tests
     
 ${response.tests}
     
-## Questions
+## Questions?
     
-Github: ${response.gitHub}
+[${response.fullName} Github](${response.gitHub})
     
-Email: ${response.email}`;
+[${response.fullName} Email](${response.email})`;
 
 
 const init = () => {
