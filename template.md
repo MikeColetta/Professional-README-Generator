@@ -1,4 +1,4 @@
-# ${Title}
+# ${title}
 
 ## Description
 
@@ -16,13 +16,17 @@ ${desc}
 
 ${install}
 
+[Link to ${title}](${link})
+
 ## Usage
 
 ${usage}
 
 ## License
 
-${license}
+${license} 
+
+Copyright (c) 2021 ${name}
 
 ## Contributing
 
