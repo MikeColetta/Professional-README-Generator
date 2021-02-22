@@ -1,8 +1,8 @@
-# The RElocator
+# The Relocator
 
 ## Description
     
-desc...
+Description goes here.
     
 ## Table of Contents
 1. [Installation](#installation)
@@ -14,9 +14,9 @@ desc...
     
 ## Installation
     
-ins...
+Instructions go here.
     
-[Link to The RElocator](https://mikecoletta.github.io/Group-Project-One/)
+[Link to The Relocator](https://mikecoletta.github.io/Group-Project-One/)
     
 ## Usage
     
@@ -35,10 +35,10 @@ Mike Coletta
     
 ## Tests
     
-test...
+Testing goes here.
     
 ## Questions
     
-Github: undefined
+Github: https://mikecoletta.github.io/
     
-Email: undefined
+Email: coletta.mike@gmail.com

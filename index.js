@@ -50,6 +50,16 @@ const promptUser = () =>
             name: 'tests',
             message: 'Please provide any testing information you have gathered.',
         },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email?',
+        },
+        {
+            type: 'input',
+            name: 'gitHub',
+            message: 'What is the link to your gitHub profile?',
+        }
     ]);
 
 const mDTemplate = (response) =>
