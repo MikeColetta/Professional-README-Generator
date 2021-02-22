@@ -6,8 +6,8 @@ const promptUser = () =>
     inquirer.prompt([
         {
             type: 'input',
-            name: 'name',
-            message: 'What is your name?'
+            name: 'fullName',
+            message: 'What is your first and last name?'
         },
         {
             type: 'input',
@@ -52,8 +52,51 @@ const promptUser = () =>
         }
     ]);
 
-// const renderMD = (data) => 
-//     `Template README goes here`
+const renderMD = (response) =>
+    `# ${title}
+
+    ## Description
+    
+    ${desc}
+    
+    ## Table of Contents
+    1. [Installation](#installation)
+    2. [Usage](#usage)
+    3. [License](#license)
+    4. [Contributing](#contributing)
+    5. [Tests](#tests)
+    6. [Questions](#questions)
+    
+    ## Installation
+    
+    ${install}
+    
+    [Link to ${title}](${link})
+    
+    ## Usage
+    
+    ${usage}
+    
+    ## License
+    
+    ${license} 
+    
+    Copyright (c) 2021 ${fullName}
+    
+    ## Contributing
+    
+    ${fullName}
+    ${otherContributors}
+    
+    ## Tests
+    
+    ${tests}
+    
+    ## Questions
+    
+    Github: ${gitHub}
+    
+    Email: ${email}`
 
 const init = () => {
     promptUser();

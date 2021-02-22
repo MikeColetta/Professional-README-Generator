@@ -26,11 +26,11 @@ ${usage}
 
 ${license} 
 
-Copyright (c) 2021 ${name}
+Copyright (c) 2021 ${fullName}
 
 ## Contributing
 
-${name}
+${fullName}
 ${otherContributors}
 
 ## Tests
