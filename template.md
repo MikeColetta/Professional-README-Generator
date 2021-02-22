@@ -1,5 +1,7 @@
 # ${response.title}
 
+![GitHub](https://img.shields.io/github/license/${gitHubUsername}/${repoName})
+
 ## Description
     
 ${response.desc}

@@ -16,6 +16,16 @@ const promptUser = () =>
         },
         {
             type: 'input',
+            name: 'gitHubUsername',
+            message: 'What is your GitHub username?'
+        },
+        {
+            type: 'input',
+            name: 'repoName',
+            message: 'What is your GitHub Repository name (include "-")?'
+        },
+        {
+            type: 'input',
             name: 'link',
             message: 'Please provide the link to your project.'
         },
@@ -69,6 +79,8 @@ const promptUser = () =>
 
 const mDTemplate = (response) =>
 `# ${response.title}
+
+![GitHub](https://img.shields.io/github/license/${response.gitHubUsername}/${response.repoName})
 
 ## Description
     
