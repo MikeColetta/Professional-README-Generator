@@ -44,62 +44,68 @@ const promptUser = () =>
             type: 'input',
             name: 'otherContributors',
             message: 'Please provide the names of other contributors. If none, leave blank.',
-        }
+        },
         {
             type: 'input',
             name: 'tests',
             message: 'Please provide any testing information you have gathered.',
-        }
+        },
     ]);
 
-const renderMD = (response) =>
-    `# ${title}
+const mDTemplate = (response) =>
+`# ${response.title}
 
-    ## Description
+## Description
     
-    ${desc}
+${response.desc}
     
-    ## Table of Contents
-    1. [Installation](#installation)
-    2. [Usage](#usage)
-    3. [License](#license)
-    4. [Contributing](#contributing)
-    5. [Tests](#tests)
-    6. [Questions](#questions)
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+5. [Tests](#tests)
+6. [Questions](#questions)
     
-    ## Installation
+## Installation
     
-    ${install}
+${response.install}
     
-    [Link to ${title}](${link})
+[Link to ${response.title}](${response.link})
     
-    ## Usage
+## Usage
     
-    ${usage}
+${response.usage}
     
-    ## License
+## License
     
-    ${license} 
+${response.license} 
     
-    Copyright (c) 2021 ${fullName}
+Copyright (c) 2021 ${response.fullName}
     
-    ## Contributing
+## Contributing
     
-    ${fullName}
-    ${otherContributors}
+${response.fullName}
+${response.otherContributors}
     
-    ## Tests
+## Tests
     
-    ${tests}
+${response.tests}
     
-    ## Questions
+## Questions
     
-    Github: ${gitHub}
+Github: ${response.gitHub}
     
-    Email: ${email}`
+Email: ${response.email}`;
+
 
 const init = () => {
-    promptUser();
+    promptUser().then((response) => {
+        const markDown = mDTemplate(response)
+        fs.writeFileSync('GeneratedREADME.md', markDown, 
+        (err) => err ? console.error(err) : console.log('Success, README generated!')
+    )
+    })
 }
 
 init();
