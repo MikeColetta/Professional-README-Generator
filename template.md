@@ -1,9 +1,9 @@
-# ${title}
+# ${response.title}
 
 ## Description
-
-${desc}
-
+    
+${response.desc}
+    
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -11,34 +11,37 @@ ${desc}
 4. [Contributing](#contributing)
 5. [Tests](#tests)
 6. [Questions](#questions)
-
+    
 ## Installation
-
-${install}
-
-[Link to ${title}](${link})
-
+    
+${response.install}
+    
+[Link to ${response.title}](${response.link})
+    
 ## Usage
+    
+${response.usage}
 
-${usage}
-
+![Screenshot](${response.screenshot})
+    
 ## License
-
-${license} 
-
-Copyright (c) 2021 ${fullName}
-
+    
+${response.license} 
+    
+Copyright (c) 2021 ${response.fullName}
+    
 ## Contributing
+    
+${response.fullName}
 
-${fullName}
-${otherContributors}
-
+${response.otherContributors}
+    
 ## Tests
-
-${tests}
-
-## Questions
-
-Github: ${gitHub}
-
-Email: ${email}
+    
+${response.tests}
+    
+## Questions?
+    
+[${response.fullName} Github](${response.gitHub})
+    
+[${response.fullName} Email](${response.email})
