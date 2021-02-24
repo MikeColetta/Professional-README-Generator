@@ -22,7 +22,7 @@ const promptUser = () =>
         {
             type: 'input',
             name: 'repoName',
-            message: 'What is your GitHub Repository name (include "-")?'
+            message: 'What is your GitHub Repository name (no spaces)?'
         },
         {
             type: 'input',
@@ -42,7 +42,7 @@ const promptUser = () =>
         {
             type: 'input',
             name: 'usage',
-            message: 'Please provide any usage information. The next question will ask you for a link to a screenshot.'
+            message: 'Please provide any usage information. The next question will ask you for a link to a screenshot. If none, leave blank.'
         },
         {
             type: 'input',
@@ -63,7 +63,7 @@ const promptUser = () =>
         {
             type: 'input',
             name: 'tests',
-            message: 'Please provide any testing information you have gathered.',
+            message: 'Please provide any testing information you have gathered. If none, leave blank.',
         },
         {
             type: 'input',
