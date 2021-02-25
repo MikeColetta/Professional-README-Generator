@@ -19,7 +19,7 @@ Type "node index.js" into your console to run.
     
 ## Usage
 
-![Video Walkthrough]()
+[Video Walkthrough]()
     
 ## License
     

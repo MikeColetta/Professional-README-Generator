@@ -126,7 +126,7 @@ ${response.tests}
     
 [${response.fullName} Github](${response.gitHub})
     
-For any questions, please send me an [email](${response.email}).`;
+For any questions, please send me an [email](mailto:${response.email}).`;
 
 
 const init = () => {
