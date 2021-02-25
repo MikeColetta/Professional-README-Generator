@@ -15,11 +15,11 @@ I made a node.js application using Inquire that takes user prompts and generates
     
 ## Installation
     
-Type "node index.js" into your console to run.
+Type "node index.js" into your terminal to run.
     
 ## Usage
 
-[Video Walkthrough]()
+[Video Walkthrough](https://drive.google.com/file/d/1NP5jDlY3sQCFtGWYiv5qQL3gCKOoR_-3/view?usp=sharing)
     
 ## License
     
