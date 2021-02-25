@@ -31,7 +31,7 @@ Copyright (c) 2021 Mike Coletta
     
 [Github](https://github.com/MikeColetta)
     
-For any questions, please send me an [email](coletta.mike@gmail.com).
+For any questions, please send me an [email](mailto:coletta.mike@gmail.com).
 
 ## Credits
 [Stackoverflow - markdown to create pages and table of contents](https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents)
