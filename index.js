@@ -1,7 +1,8 @@
+//Calls inquirer and fs packages.
 const inquirer = require('inquirer');
 const fs = require('fs');
-const Choices = require('inquirer/lib/objects/choices');
 
+//User prompt questions to get data.
 const promptUser = () =>
     inquirer.prompt([
         {
@@ -77,6 +78,7 @@ const promptUser = () =>
         }
     ]);
 
+//This is the template for the README that will print with the inquirer data above.    
 const mDTemplate = (response) =>
     `# ${response.title}
 
@@ -128,7 +130,7 @@ ${response.tests}
     
 For any questions, please send me an [email](mailto:${response.email}).`;
 
-
+//Writes file using the data from the prompt and the template literal README template.
 const init = () => {
     promptUser().then((response) => {
         try {
