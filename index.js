@@ -132,13 +132,13 @@ For any questions, please send me an [email](mailto:${response.email}).`;
 const init = () => {
     promptUser().then((response) => {
         try {
-            const markDown = mDTemplate(response)
+            const markDown = mDTemplate(response);
             fs.writeFileSync('GeneratedREADME.md', markDown);
             console.log('Success, README generated!');
         } catch (error) {
-            console.log(error)
+            console.log(error);
         }
     })
-}
+};
 
 init();
